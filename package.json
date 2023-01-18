@@ -22,10 +22,11 @@
   },
   "homepage": "https://github.com/RomanVikulov/goit-nodejs-hw-01-cli#readme",
   "dependencies": {
-    "command": "^0.0.5",
+    "command": "^0.0.1",
     "commander": "^10.0.0",
     "index": "^0.4.0",
     "node": "^19.4.0",
+    "npm": "^9.3.1",
     "uuid": "^9.0.0"
   }
 }
