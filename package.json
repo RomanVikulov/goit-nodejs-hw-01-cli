@@ -1,6 +1,30 @@
 {
+  "name": "goit-nodejs-hw-01-cli",
+  "version": "1.0.0",
+  "description": "cli app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index",
+    "dev": "nodemon index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RomanVikulov/goit-nodejs-hw-01-cli.git"
+  },
+  "keywords": [
+    "nodejs"
+  ],
+  "author": "Roman Vikulov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RomanVikulov/goit-nodejs-hw-01-cli/issues"
+  },
+  "homepage": "https://github.com/RomanVikulov/goit-nodejs-hw-01-cli#readme",
   "dependencies": {
-    "nodemon": "^2.0.20",
-    "npm": "^8.19.2"
+    "commander": "^10.0.0",
+    "index": "^0.4.0",
+    "node": "^19.4.0",
+    "uuid": "^9.0.0"
   }
 }
